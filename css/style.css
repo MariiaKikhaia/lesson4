@@ -1,0 +1,40 @@
+#heading {
+  color: blue;
+}
+
+h2 {
+  color: brown;
+}
+
+.text {
+  color: green;
+}
+
+a[href="https://babyboom2015.com"]
+{
+  color: orange;
+}
+
+div > .letter {
+  color: rgb(163, 14, 250);
+}
+
+div > span {
+  color: rgb(13, 245, 175);
+}
+
+h2 + p {
+  color: purple;
+}
+
+h1 ~ p {
+  background-color: bisque;
+}
+
+li:first-child {
+  background-color: red;
+}
+
+li::first-letter {
+  color: rgb(27, 207, 66);
+}
